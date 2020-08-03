@@ -1,0 +1,600 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('poppins-regular-webfont.woff2') format('woff2'),
+         url('poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	font-family: 'poppinsregular';
+	color: white;
+	margin: 0;
+	padding: 0;
+	background: url("images/Play-Presentation.jpg") no-repeat fixed 100% 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+h2 {
+	font-weight: normal;
+	font-size: 12pt;
+}
+#wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+	#logo {
+		width: 250px;
+		height: 320px;
+	}
+	#logobtn {
+		display: block;
+		width: 250px;
+		height: 260px;
+		background: url("images/KaiserPortal.png") no-repeat center;
+		background-size: 100%;
+	}
+	#logoAras {
+		width: 0px;
+		height: 0px;
+		background: url("images/LogoAras.png") no-repeat center;
+		background-size: 100%;
+		position: absolute;
+		display: block;
+		opacity: 0;
+		animation: ArasIntro 3s ;
+	}
+		@keyframes ArasIntro {
+				0% {display: block ;opacity: 1; width: 320px; height: 320px;}
+				80% {opacity: 1;}
+				100% {opacity: 0; display: none; width: 320px; height: 320px;}
+			}
+	#logoLoad {
+		width: 320px;
+		height: 320px
+		background: url("images/code_00000.png") no-repeat center;
+		background-size: 100%;
+	}
+	#logoLoading {
+		display: block;
+		width: 320px;
+		height: 320px;
+		animation: coding 2s ;
+		animation-iteration-count: infinite;
+		background: url("images/code_00000.png") no-repeat center;
+		background-size: 100%;
+	}
+	@keyframes coding {
+				0% {background-image: url(images/code_00000.png)}
+				5.2% {background-image: url(images/code_00001.png)}
+				10.4% {background-image: url(images/code_00002.png)}
+				15.6% {background-image: url(images/code_00003.png)}
+				20.8% {background-image: url(images/code_00004.png)}
+				26% {background-image: url(images/code_00005.png)}
+				31.2% {background-image: url(images/code_00006.png)}
+				36.4% {background-image: url(images/code_00007.png)}
+				41.6% {background-image: url(images/code_00008.png)}
+				46.8% {background-image: url(images/code_00009.png)}
+				52% {background-image: url(images/code_00010.png)}
+				57.2% {background-image: url(images/code_00011.png)}
+				62.4% {background-image: url(images/code_00012.png)}
+				67.6% {background-image: url(images/code_00013.png)}
+				72.8% {background-image: url(images/code_00014.png)}
+				83.2% {background-image: url(images/code_00015.png)}
+				88.4% {background-image: url(images/code_00016.png)}
+				93.6% {background-image: url(images/code_00017.png)}
+				97% {background-image: url(images/code_00018.png)}
+				100% {background-image: url(images/code_00019.png)}
+			}
+	#logobtn:hover {
+		background: url("images/KaiserPortal-hover.png") no-repeat center;
+		background-size: 100%;
+	}
+		#logobtn img {
+			width: 250px;
+		}
+	#sombra {
+		display: block;
+		width: 100%;
+		height: 20px;
+		background: url("images/SombraKaiserportal-ball.png") no-repeat center;
+		background-size: 100%;
+	}
+	/* ----------------------------------------------------- */
+	#Graphic {
+		width: 70%;
+		height: 100vh;
+		position: fixed;
+		left: -22px;
+	}  
+		#maindesc {
+			width: 300px;
+			position: relative;
+			top: 20px;
+			left: 50px;
+		}
+			#maindesc h1{
+				padding-bottom: 8px;
+				border-bottom: solid 3px white;
+			}
+			#maindesc p {
+				font-size: 13pt;
+				line-height: 18pt;
+			}
+			#mainGraphic {
+				width: 960px;
+				height: 640px;
+				background: url("images/Animation-circle_00000.png") no-repeat left;
+				animation: powered 1.1s;
+				animation-iteration-count: infinite;
+				background-size: 100%;
+				position: relative;
+				top: -141px;
+				z-index: 3;
+				display: block;
+			}
+			#mainGraphic:hover {
+				animation: powered 0.5s;
+				animation-iteration-count: infinite;
+				cursor: pointer;
+			}
+			#arasTitle {
+				position: relative;
+				top: -310px;
+				left: 50px;
+				width: 250px;
+				text-align: center;
+			}
+			@keyframes powered {
+				0% {background-image: url(images/Animation-circle_00000.png)}
+				11% {background-image: url(images/Animation-circle_00001.png)}
+				22% {background-image: url(images/Animation-circle_00002.png)}
+				33% {background-image: url(images/Animation-circle_00003.png)}
+				44% {background-image: url(images/Animation-circle_00004.png)}
+				55% {background-image: url(images/Animation-circle_00005.png)}
+				66% {background-image: url(images/Animation-circle_00006.png)}
+				77% {background-image: url(images/Animation-circle_00007.png)}
+				88% {background-image: url(images/Animation-circle_00008.png)}
+				100% {background-image: url(images/Animation-circle_00009.png)}
+			}
+			#icons {
+				position: absolute;
+				top: 101px;
+				z-index: 10;
+			}
+			#icons a{
+				position: absolute;
+				float: left;
+				width: 309px;
+			}
+				#icons a:hover {
+					color: #E3B535;
+				}
+			#icons a h2{
+				line-height: 24px;
+			}
+				#i01 {
+					left: 548px;
+					top: 0;
+				}
+					#i01 h2 {
+						position: relative;
+						top: -131px;
+						left: 52px;
+					}
+				#i02 {
+					left: 644px;
+					top: 14px;
+				}
+					#i02 h2 {
+							position: absolute;
+							top: -14px;
+							left: 100px;
+						}
+				#i03 {
+					left: 731px;
+					top: 76px;
+				}
+					#i03 h2 {
+							position: absolute;
+							top: 9px;
+							left: 90px;
+						}
+				#i04 {
+					left: 798px;
+					top: 167px;
+				}
+					#i04 h2 {
+						position: absolute;
+						top: 12px;
+						left: 90px;
+					}
+				#i05 {
+					left: 813px;
+					top: 266px;
+				}
+					#i05 h2 {
+						position: absolute;
+						top: 5px;
+						left: 89px;
+					}
+				#i06 {
+					left: 790px;
+					top: 368px;
+					color: gray;
+				}
+					#i06 h2 {
+						position: absolute;
+						top: 13px;
+						left: 107px;
+					}
+				#i07 {
+					left: 731px;
+					top: 453px;
+				}
+					#i07 h2 {
+						position: absolute;
+						top: 21px;
+						left: 106px;
+					}
+				#i08 {
+					left: 644px;
+					top: 506px;
+				}
+					#i08 h2 {
+						position: absolute;
+						top: 39px;
+						left: 118px;
+					}
+				#i09 {
+					left: 548px;
+					top: 525px;
+					color: gray;
+				}
+					#i09 h2 {
+						position: absolute;
+						left: 85px;
+					}
+	#lines {
+		background: url(images/Lines.png) no-repeat left;
+		background-size: 100%;
+		width: 815px;
+		height: 704px;
+		top: 69px;
+		left: 593px;
+		position: absolute;
+		z-index: 2;
+	}
+.viewer.frame1 #Graphic #lines{
+	background: unset;
+	background-size: 84%;
+	left: 603px;
+	top: 91px;
+}
+.viewer.frame4 #Graphic #lines{
+	background: url(images/LinesYellow.png) no-repeat left;
+	background-size: 84%;
+	left: 603px;
+	top: 91px;
+}
+.viewer.frame1 #plan{
+	top: -200px;
+}
+.viewer.frame2 #plan{
+	top: -400px;
+}
+.viewer.frame3 #plan{
+	top: -500px;
+}
+.viewer.frame4 #plan{
+	top: -771px;
+}
+.viewer.frame1 #i01{
+	color: gray;
+}
+.viewer.frame1 #i02{
+	color: gray;
+}
+	#contentPlan {
+		width: 366px;
+		height: 100vh;
+		overflow: hidden;
+		position: fixed;
+		left: 1228px;
+	}
+	#linePlan {
+		height: 1900px;
+		width: 30%;
+	}
+	#plan{
+		width: 250px;
+		height: 1544px;
+		border-left: solid 2px;
+		position: relative;
+		left: 38px;
+		top: 60px;
+		z-index: 0;
+		transition: all .3s ease-out;
+
+	}
+	#plan h3{
+		width: 100px;
+		height: 30px;
+		text-align: center;
+		position: absolute;
+		padding-top: 12px;
+	}
+	.dot {
+		height: 22px;
+		width: 22px;
+		background-color: #00BBE4;
+		border-radius: 50%;
+		display: inline-block;
+		position: absolute;
+		left: -12px;
+	}
+	.dot h2 {
+		width: 240px;
+		position: relative;
+		left: 90px;
+		top: -12px;
+		}
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+ 		cursor: pointer;
+ 		z-index: 2;
+		position: absolute;
+		top: 50px;
+		background-size: 95%;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+}
+
+/* Position the "next button" to the right */
+.next {
+	transform: rotate(180deg);
+  	width: 21.5%;
+  	right: 0;
+}
+.prev {
+	left: 0;
+	width: 21.5%;
+}
+.prev0, .next0 {
+ 		cursor: pointer;
+		position: absolute;
+		background-size: 95%;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 60px;
+		height: 30px;
+		z-index: 2;
+		background-color: #00BBE4;
+		text-align: center;
+		z-index: 2;
+		padding: 12px 15px 0 10px;
+		border-radius: 10px;
+}
+
+/* Position the "next button" to the right */
+.next0 {
+  	left: 151px;
+}
+.prev0 {
+	left: 60px;}
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  /*background-color: rgba(0,0,0,0.8);*/
+  background-image: url(img/Next.png);
+  opacity: 1;
+}
+
+.prev0:hover, .next0:hover {
+	background-color: #1F6CAB;
+}
+
+    .Step01 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Revit_file1.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 1;
+	}
+	.Step02 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Revit_file2.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step03 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Revit_file3.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+		animation: StepTreeFrames 2s linear;
+	}
+	.Step04 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/gbXML.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	/*  -   - - - - - - - - -  -*/
+	.Step05 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Ductwork1.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step06 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Ductwork2.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step07 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Plumbing1.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step08 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Plumbing2.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step09 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Plumbing3.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step10 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Plumbing4.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step11 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/portal.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step12 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/zoning01.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step13 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/zoning02.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step14 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/zoning03.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step15 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/zoning04.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+#home {
+	display: block;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	background-image: url(images/Home.png);
+	background-size: 80%;
+	background-position-x: 5px;
+	background-position-y: 3px;
+	background-repeat: no-repeat;
+	z-index: 10;
+	background-color: #00BBE4;
+	border-radius: 10px;
+}
+#home:hover {
+	background-color: #1F6CAB;
+}

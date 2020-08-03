@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="77" viewBox="0 0 77 77">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.722" cy="0.359" r="0.745" gradientTransform="matrix(0.701, -0.714, 0.766, 0.752, -0.059, 0.604)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d2ff"/>
+      <stop offset="1" stop-color="#0096b7"/>
+    </radialGradient>
+    <clipPath id="clip-Photometrics">
+      <rect width="77" height="77"/>
+    </clipPath>
+  </defs>
+  <g id="Photometrics" clip-path="url(#clip-Photometrics)">
+    <g id="Grupo_2026" data-name="Grupo 2026" transform="translate(-606.822 -800.822)">
+      <circle id="Elipse_403" data-name="Elipse 403" cx="36" cy="36" r="36" transform="translate(609.822 803.822)" fill="#fff" opacity="0.1"/>
+      <g id="Grupo_2009" data-name="Grupo 2009" transform="translate(616.176 810.176)">
+        <circle id="Elipse_253" data-name="Elipse 253" cx="30" cy="30" r="30" transform="translate(-0.355 -0.354)" fill="url(#radial-gradient)"/>
+      </g>
+    </g>
+    <g id="Grupo_2050" data-name="Grupo 2050" transform="translate(-606 -792)">
+      <g id="Grupo_2049" data-name="Grupo 2049" transform="translate(632.162 917.093)">
+        <path id="Trazado_1991" data-name="Trazado 1991" d="M49.377-67.6,49.4-93.5h.975s2.822-3.366,4.386-3.366c.024,0,0,26.486,0,26.486a8.82,8.82,0,0,1-4.346-3.743c-.492-.944-.222,6.519-.222,6.519Z" transform="translate(-34.46 -3.734)" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_1992" data-name="Trazado 1992" d="M0-64.829H13.656V-83.722H0Z" transform="translate(0 -12.905)" fill="none" stroke="#fff" stroke-width="1" fill-rule="evenodd"/>
+        <path id="Trazado_1993" data-name="Trazado 1993" d="M0-14.107H13.656v-4.788H0Z" transform="translate(0 -57.227)" fill="#fff" fill-rule="evenodd"/>
+        <path id="Trazado_1994" data-name="Trazado 1994" d="M71.4-101.224v27.4a20.619,20.619,0,0,0,7.139,1.251v-29.644S73.176-102.13,71.4-101.224Z" transform="translate(-49.833)" fill="none" stroke="#fff" stroke-width="1" fill-rule="evenodd"/>
+      </g>
+      <g id="Rectángulo_2514" data-name="Rectángulo 2514" transform="translate(627 820)" fill="none" stroke="#fff" stroke-width="1">
+        <rect width="4" height="31" rx="1" stroke="none"/>
+        <rect x="0.5" y="0.5" width="3" height="30" rx="0.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="77" viewBox="0 0 77 77">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.722" cy="0.359" r="0.745" gradientTransform="matrix(0.701, -0.714, 0.766, 0.752, -0.059, 0.604)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d2ff"/>
+      <stop offset="1" stop-color="#0096b7"/>
+    </radialGradient>
+    <clipPath id="clip-Electrical">
+      <rect width="77" height="77"/>
+    </clipPath>
+  </defs>
+  <g id="Electrical" clip-path="url(#clip-Electrical)">
+    <g id="Grupo_2022" data-name="Grupo 2022" transform="translate(-873.271 -624.271)">
+      <circle id="Elipse_404" data-name="Elipse 404" cx="36" cy="36" r="36" transform="translate(876.271 627.271)" fill="#fff" opacity="0.1"/>
+      <g id="Grupo_2010" data-name="Grupo 2010" transform="translate(882.254 633.253)">
+        <circle id="Elipse_253" data-name="Elipse 253" cx="30" cy="30" r="30" transform="translate(0.018 0.018)" fill="url(#radial-gradient)"/>
+      </g>
+    </g>
+    <g id="Grupo_293" data-name="Grupo 293" transform="translate(19.566 14.539)">
+      <g id="Grupo_291" data-name="Grupo 291" transform="translate(0 0)">
+        <g id="Grupo_290" data-name="Grupo 290">
+          <path id="Trazado_208" data-name="Trazado 208" d="M49.685,65.107H45.179A19.231,19.231,0,0,0,27.145,48.471V43.149H25.159v5.322a19.2,19.2,0,0,0,0,38.347v5.1h1.986v-5.1A19.226,19.226,0,0,0,45.206,69.961h4.479ZM26.151,85.52A17.875,17.875,0,1,1,44.026,67.645,17.9,17.9,0,0,1,26.151,85.52Z" transform="translate(-6.953 -43.149)" fill="#fff"/>
+          <path id="Trazado_209" data-name="Trazado 209" d="M19.195,68.61l5.749-12.072h-4.6l2.3-6.9H17.47l-2.3,9.773h4.024Z" transform="translate(-1.775 -40.366)" fill="#fff"/>
+          <rect id="Rectángulo_532" data-name="Rectángulo 532" width="14.123" height="2.207" transform="translate(11.221 29.13)" fill="#fff"/>
+          <rect id="Rectángulo_533" data-name="Rectángulo 533" width="14.123" height="2.207" transform="translate(11.221 33.102)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

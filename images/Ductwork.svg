@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="77" viewBox="0 0 77 77">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.722" cy="0.359" r="0.745" gradientTransform="matrix(0.701, -0.714, 0.766, 0.752, -0.059, 0.604)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d2ff"/>
+      <stop offset="1" stop-color="#0096b7"/>
+    </radialGradient>
+    <clipPath id="clip-Ductwork">
+      <rect width="77" height="77"/>
+    </clipPath>
+  </defs>
+  <g id="Ductwork" clip-path="url(#clip-Ductwork)">
+    <g id="Grupo_2002" data-name="Grupo 2002" transform="translate(-891.721 -468.721)">
+      <circle id="Elipse_400" data-name="Elipse 400" cx="36" cy="36" r="36" transform="translate(894.721 471.721)" fill="#fff" opacity="0.1"/>
+      <g id="Grupo_1996" data-name="Grupo 1996" transform="translate(901.159 478.158)">
+        <circle id="Elipse_253" data-name="Elipse 253" cx="30" cy="30" r="30" transform="translate(-0.438 -0.437)" fill="url(#radial-gradient)"/>
+      </g>
+      <g id="Grupo_1983" data-name="Grupo 1983" transform="translate(911.442 491.562)">
+        <g id="Grupo_477" data-name="Grupo 477" transform="translate(0 0)">
+          <g id="Grupo_476" data-name="Grupo 476" transform="translate(0 0)">
+            <path id="Trazado_234" data-name="Trazado 234" d="M95.489,36.14V43.1l-5.732,8.162-1.181,6.094,7.139,4.6.078.053h17.645v-5.63H120.3V36.14ZM116.071,41.1v13.45l-2.891.963-5.417-4.151ZM112.641,56.2v4.853l-6.157-4.105.977-4.819,4.973,3.813Zm2.993-15.834L107.022,51H90.912l5.225-7.439.15-.214,2.095-2.983Zm1.235,14.753V39.57h-18.9l-1.681,2.394V36.938H119.5V55.579h-4Zm-10.838,2.486,5.4,3.6h-15.4l-5.4-3.6Zm.689-5.8L105.7,56.809H89.491L90.43,51.8Z" transform="translate(-88.576 -36.14)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+            <path id="Trazado_235" data-name="Trazado 235" d="M96.714,54.374l.143,0,.157,0H105.5l-3.658-2.438-.028-.018H93.028l3.658,2.438Zm.465-2.152-.407,1.825-2.737-1.825Zm-.1,1.847.409-1.847h4.231l2.771,1.847Z" transform="translate(-86.807 -29.872)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+          </g>
+          <path id="Trazado_236" data-name="Trazado 236" d="M114.441,51.1l-8.019,7.414-.042.039-2.266,7.584,7.687-1.647.056-.013,8.063-7.453Zm-7.192,8.511c.087.034.173.064.268.1a1.594,1.594,0,0,1,.648.345,2.028,2.028,0,0,1,.421.626c.032.075.06.157.1.26a2.6,2.6,0,0,0,.323.693,1.28,1.28,0,0,0,.823.506l.063.017a1.347,1.347,0,0,1,.551.274,1.362,1.362,0,0,1,.384.539.541.541,0,0,1,.039.268,1.279,1.279,0,0,0-.027.215l0,.169-2.943.76L106.2,62.547Zm2.744,1.551c-.161-.046-.163-.052-.186-.081a1.811,1.811,0,0,1-.189-.409c-.041-.109-.082-.222-.134-.334a3.36,3.36,0,0,0-.658-.953,2.694,2.694,0,0,0-1.03-.616l-.056-.022-.027-.01L114.46,52.5l4.065,4.4-6.674,6.169a1.642,1.642,0,0,0-.109-.381,2.662,2.662,0,0,0-.7-.971,2.588,2.588,0,0,0-.988-.531Z" transform="translate(-82.403 -30.197)" fill="#fff" stroke="#fff" stroke-width="0.4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

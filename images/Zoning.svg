@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="77" viewBox="0 0 77 77">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.722" cy="0.359" r="0.745" gradientTransform="matrix(0.701, -0.714, 0.766, 0.752, -0.059, 0.604)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d2ff"/>
+      <stop offset="1" stop-color="#0096b7"/>
+    </radialGradient>
+    <clipPath id="clip-Zoning">
+      <rect width="77" height="77"/>
+    </clipPath>
+  </defs>
+  <g id="Zoning" clip-path="url(#clip-Zoning)">
+    <g id="Grupo_2020" data-name="Grupo 2020" transform="translate(-737.719 -275.72)">
+      <circle id="Elipse_397" data-name="Elipse 397" cx="36" cy="36" r="36" transform="translate(740.72 278.72)" fill="#fff" opacity="0.1"/>
+      <g id="Grupo_1993" data-name="Grupo 1993" transform="translate(747.159 285.158)">
+        <circle id="Elipse_253" data-name="Elipse 253" cx="30" cy="30" r="30" transform="translate(-0.439 -0.438)" fill="url(#radial-gradient)"/>
+      </g>
+      <g id="Grupo_1585" data-name="Grupo 1585" transform="translate(762.564 300.043)">
+        <path id="Trazado_228" data-name="Trazado 228" d="M-121.148-368H-139v28.762h28.762V-368Zm9.918.991v6.943h-10.259v-6.943Zm-26.779,0h15.869v9.666l-2.844,2.844-3.359,3.359h-9.666Zm26.779,26.779h-26.779v-9.918h7.934v5.454h.992v-5.454h1.15c2.649-2.65,4.134-4.135,6.784-6.784v-2.143h9.918Z" transform="translate(139 368)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

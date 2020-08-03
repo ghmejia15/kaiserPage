@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="77" viewBox="0 0 77 77">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.722" cy="0.359" r="0.745" gradientTransform="matrix(0.701, -0.714, 0.766, 0.752, -0.059, 0.604)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d2ff"/>
+      <stop offset="1" stop-color="#0096b7"/>
+    </radialGradient>
+    <clipPath id="clip-Csv">
+      <rect width="77" height="77"/>
+    </clipPath>
+  </defs>
+  <g id="Csv" clip-path="url(#clip-Csv)">
+    <g id="Grupo_2021" data-name="Grupo 2021" transform="translate(-867.967 -389.967)">
+      <circle id="Elipse_399" data-name="Elipse 399" cx="36" cy="36" r="36" transform="translate(870.967 392.967)" fill="#fff" opacity="0.1"/>
+      <g id="Grupo_1995" data-name="Grupo 1995" transform="translate(877.201 399.201)">
+        <circle id="Elipse_253" data-name="Elipse 253" cx="30" cy="30" r="30" transform="translate(-0.235 -0.234)" fill="url(#radial-gradient)"/>
+      </g>
+      <g id="Grupo_1772" data-name="Grupo 1772" transform="translate(891.608 412.976)">
+        <rect id="Rectángulo_970" data-name="Rectángulo 970" width="28.736" height="3.684" transform="translate(1.132 1.213)" fill="#fff" opacity="0.44"/>
+        <rect id="Rectángulo_974" data-name="Rectángulo 974" width="7.368" height="7.368" transform="translate(1.132 11.528)" fill="#fff" opacity="0.44"/>
+        <rect id="Rectángulo_975" data-name="Rectángulo 975" width="7.368" height="5.895" transform="translate(23.237 12.265)" fill="#fff" opacity="0.44"/>
+        <rect id="Rectángulo_976" data-name="Rectángulo 976" width="7.368" height="5.895" transform="translate(8.501 18.897)" fill="#fff" opacity="0.44"/>
+        <g id="Grupo_488" data-name="Grupo 488" transform="translate(0 0)">
+          <g id="Trazado_1864" data-name="Trazado 1864" fill="none">
+            <path d="M0,0H31.162V31.434H0Z" stroke="none"/>
+            <path d="M 1.000001907348633 1.000003814697266 L 1.000001907348633 30.43402481079102 L 30.16196060180664 30.43402481079102 L 30.16196060180664 1.000003814697266 L 1.000001907348633 1.000003814697266 M 1.9073486328125e-06 3.814697265625e-06 L 31.16196060180664 3.814697265625e-06 L 31.16196060180664 31.43402481079102 L 1.9073486328125e-06 31.43402481079102 L 1.9073486328125e-06 3.814697265625e-06 Z" stroke="none" fill="#fff"/>
+          </g>
+          <line id="Línea_307" data-name="Línea 307" x2="29.36" transform="translate(0.901 4.863)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_308" data-name="Línea 308" y2="30.833" transform="translate(23.371 0.3)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_313" data-name="Línea 313" x2="29.96" transform="translate(0.3 11.953)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_314" data-name="Línea 314" x2="29.96" transform="translate(0.901 18.407)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_315" data-name="Línea 315" x2="29.96" transform="translate(0.901 25.038)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_309" data-name="Línea 309" y2="30.833" transform="translate(15.87 0.3)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_310" data-name="Línea 310" y2="30.232" transform="translate(8.368 0.3)" fill="none" stroke="#fff" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

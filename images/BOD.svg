@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="77" viewBox="0 0 77 77">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.722" cy="0.359" r="0.745" gradientTransform="matrix(0.701, -0.714, 0.766, 0.752, -0.059, 0.604)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00d2ff"/>
+      <stop offset="1" stop-color="#0096b7"/>
+    </radialGradient>
+    <clipPath id="clip-BOD">
+      <rect width="77" height="77"/>
+    </clipPath>
+  </defs>
+  <g id="BOD" clip-path="url(#clip-BOD)">
+    <g id="Grupo_2017" data-name="Grupo 2017" transform="translate(-604.254 -131.254)">
+      <circle id="Elipse_384" data-name="Elipse 384" cx="36" cy="36" r="36" transform="translate(606.254 133.254)" fill="#fff" opacity="0.1"/>
+      <g id="Grupo_1981" data-name="Grupo 1981" transform="translate(612.251 139.25)">
+        <circle id="Elipse_253" data-name="Elipse 253" cx="30" cy="30" r="30" transform="translate(0.003 0.004)" fill="url(#radial-gradient)"/>
+      </g>
+      <text id="BOD-2" data-name="BOD" transform="translate(618.254 176.254)" fill="#fff" font-size="22" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">BOD</tspan></text>
+    </g>
+  </g>
+</svg>
