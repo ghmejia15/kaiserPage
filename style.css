@@ -229,12 +229,14 @@ h2 {
 				#i06 {
 					left: 790px;
 					top: 368px;
-					color: gray;
+					opacity: 0.4;
+					pointer-events: none;
 				}
 					#i06 h2 {
 						position: absolute;
 						top: 13px;
 						left: 107px;
+						display: block;
 					}
 				#i07 {
 					left: 731px;
@@ -257,7 +259,8 @@ h2 {
 				#i09 {
 					left: 548px;
 					top: 525px;
-					color: gray;
+					opacity: 0.4;
+					pointer-events: none;
 				}
 					#i09 h2 {
 						position: absolute;
@@ -298,10 +301,13 @@ h2 {
 	top: -771px;
 }
 .viewer.frame1 #i01{
-	color: gray;
+	opacity: 0.4;
+    pointer-events: none;
+
 }
 .viewer.frame1 #i02{
-	color: gray;
+	opacity: 0.4;
+    pointer-events: none;
 }
 	#contentPlan {
 		width: 366px;
@@ -354,7 +360,11 @@ h2 {
   width: 100%;
   overflow: hidden;
 }
-
+.mySlides h1{
+	position: absolute;
+	top: -61px;
+	right: 20px;
+}
 /* Next & previous buttons */
 .prev, .next {
  		cursor: pointer;
@@ -366,7 +376,7 @@ h2 {
 		background-position: center;
 		width: 100%;
 		height: 100%;
-		z-index: 2;
+		z-index: 21;
 }
 
 /* Position the "next button" to the right */
@@ -385,7 +395,7 @@ h2 {
 		background-size: 95%;
 		background-repeat: no-repeat;
 		background-position: center;
-		width: 60px;
+		width: 67px;
 		height: 30px;
 		z-index: 2;
 		background-color: #00BBE4;
@@ -393,11 +403,15 @@ h2 {
 		z-index: 2;
 		padding: 12px 15px 0 10px;
 		border-radius: 10px;
+		-moz-user-select: none; 
+	    -webkit-user-select: none;
+	    -ms-user-select: none;
+	    user-select: none; 
 }
 
 /* Position the "next button" to the right */
 .next0 {
-  	left: 151px;
+  	left: 160px;
 }
 .prev0 {
 	left: 60px;}
@@ -539,7 +553,7 @@ h2 {
 	.Step12 {
 		position: absolute;
 		top: 50px;
-		background-image: url(images/zoning01.jpg);
+		background-image: url(images/Spacing1.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: top;
@@ -550,7 +564,7 @@ h2 {
 	.Step13 {
 		position: absolute;
 		top: 50px;
-		background-image: url(images/zoning02.jpg);
+		background-image: url(images/Spacing2.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: top;
@@ -561,7 +575,7 @@ h2 {
 	.Step14 {
 		position: absolute;
 		top: 50px;
-		background-image: url(images/zoning03.jpg);
+		background-image: url(images/Spacing3.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: top;
@@ -572,7 +586,51 @@ h2 {
 	.Step15 {
 		position: absolute;
 		top: 50px;
-		background-image: url(images/zoning04.jpg);
+		background-image: url(images/Spacing4.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step16 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Zoning1.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step17 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Zoning2.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step18 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Zoning3.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: top;
+		width: 100%;
+		height: 994px;
+		z-index: 2;
+	}
+	.Step19 {
+		position: absolute;
+		top: 50px;
+		background-image: url(images/Zoning4.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: top;
@@ -597,4 +655,76 @@ h2 {
 }
 #home:hover {
 	background-color: #1F6CAB;
+}
+#lookZoning01 {
+	background: url(images/here.png) no-repeat;
+	background-size: 85%;
+	background-position: center;
+	width: 35px;
+	height: 35px;
+	display: block;
+	position: absolute;
+	left: 182px;
+	top: 98px;
+	z-index: 30;
+	cursor: pointer;
+}
+
+#lookZoningback {
+	background: url(images/here.png) no-repeat;
+	background-size: 85%;
+	background-position: center;
+	width: 35px;
+	height: 35px;
+	display: block;
+	position: absolute;
+	left: 892px;
+	top: 358px;
+	z-index: 30;
+	cursor: pointer;
+}
+	#lookZoning01:hover{
+		background: url(images/hereHover.png);
+		background-position: center;
+		background-size: 100%;
+		width: 35px;
+		height: 35px
+}
+
+#here h2{
+	width: 400px;
+	font-size: 35pt;
+	position: absolute;
+}
+
+.isHere {
+	opacity: 1 !important;
+	background-position-y: -1370px !important;
+	background-position-x: -1380px !important;
+}
+.isHere h2{
+	left: 520px;
+	top: 80px;
+}
+.isHere2 h2{
+	left: 140px;
+	top: 290px;
+}
+.isHere2 {
+	background-position-y: -1167px !important;
+	background-position-x: -680px !important;
+	opacity: 1 !important;
+}
+#here {
+	background: url(images/here.svg);
+	background-size: 200%;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all .3s ease-out;
+	position: absolute;
+}
+
+.mySlides h1{
+	text-transform: uppercase;
 }

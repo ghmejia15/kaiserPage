@@ -4,21 +4,32 @@
 <title>Ara - Portal Kaiser</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body style="background-color: #1B1D1F; background-image: none;">
   <a id="home" href="Presentation.html"></a>
 			<div class="slideshow-container">
-				<div class="mySlides fade Step12"></div>
-				<div class="mySlides fade Step13"></div>
-				<div class="mySlides fade Step14"></div>
-        <div class="mySlides fade Step15"></div>
-				<a class="prev" onclick="plusSlides(-1)"></a>
-				<a class="next" onclick="plusSlides(1)"></a>
-        <a class="prev0" onclick="plusSlides(-1)">PREVIEW</a>
+				<div class="mySlides fade Step12"style="z-index: 5"><span style="width: 94px; height: 44px; background-color: #1B1D1F; position: absolute; top: -51px; left: 60px; "></span><h1>ARCHITECTURAL MODEL WITH ROOMS</h1></div>
+				<div class="mySlides fade Step13"><h1>Spacing rooms</h1></div>
+				<div class="mySlides fade Step14"><h1>ZOOM TO INDIVIDUAL ROOM SPACE</h1></div>
+        <div class="mySlides fade Step15"><h1>Space properties information</h1></div>
+        <div class="mySlides fade Step16"><h1>Zoning</h1></div>
+        <div class="mySlides fade Step17"><h1>Level selection</h1></div>
+        <div class="mySlides fade Step18"><h1>Add or remove zones</h1></div>
+<div class="mySlides fade Step19"style="z-index: 5"><span style="width: 107px; height: 44px; background-color: #1B1D1F; position: absolute; top: -51px; left: 154px; "></span><h1>Multiple zone options per project</h1><div id="here"><h2>
+Save several alternatives and then choose the one that best fits</h2></div></div>
+
+
+
+     <!--    <div class="mySlides fade Step19"style="z-index: 5"><span style="width: 107px; height: 44px; background-color: #1B1D1F; position: absolute; top: -51px; left: 154px; "></span><a id="lookZoning01"></a><a id="lookZoningback"></a><h1>Multiple zone options per project</h1><div id="here"><h2>
+Save several alternatives and then choose the one that best fits</h2></div></div> -->
+				<!-- <a class="prev" onclick="plusSlides(-1)"></a>
+				<a class="next" onclick="plusSlides(1)"></a> -->
+        <a class="prev0" onclick="plusSlides(-1)">PREVIOUS</a>
         <a class="next0" onclick="plusSlides(1)">NEXT</a>
 			</div>
 <div style="position: absolute; top: 0; display: none;">
-	<img src="images/KaiserPortal-hover.png">
 </div>
+
+
 
 <script>
 var slideIndex = 1;
@@ -48,5 +59,37 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+  <script>
+    const lookZoning01 = document.getElementById('lookZoning01');
+    const lookZoningback = document.getElementById('lookZoningback');
+    const here = document.getElementById('here');
+
+    // lookZoning01.addEventListener('click', function () {
+    //   here.classList.add('isHere');
+    // });
+
+    // lookZoningback.addEventListener('click', function () {
+    //   here.classList.remove('isHere');
+    // });
+
+    // lookZoning01.addEventListener('click', function () {
+    //   if (here.classList.contains('isHere')) {
+    //     here.classList.remove('isHere');
+    //   } here {
+    //     here.classList.add('isHere');
+    //   }
+    // });
+
+    lookZoning01.addEventListener('click', function () {
+    here.classList.toggle('isHere');
+    here.classList.remove('isHere2');
+  });
+
+    lookZoningback.addEventListener('click', function () {
+      here.classList.toggle('isHere2');
+      here.classList.remove('isHere');
+    });
+
+  </script>
 </body>
 </html>
